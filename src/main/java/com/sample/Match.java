@@ -35,6 +35,7 @@ public class Match {
 		WebElement element = findElements.get(i);
 		String text = element.getText();
 		System.out.println(text);
+		Class<? extends WebElement> class1 = element.getClass();
 		
 	
 		
